@@ -1,8 +1,11 @@
 #!/bin/sh
 
+# Bring the variables from the `.env` file into this script's environment
+source .env
+
 # in bash, environment variables are refferred to with a "$" before them
 
-npm run build
+npm run build --prefix react-demo/
 
 # If the above command was NOT successful
 if [ $? != 0 ]
@@ -14,7 +17,7 @@ fi # "fi" closes the if condition above
 # using the aws cli, go into the s3 utility, call the command "sync"
 aws s3 sync \
   # Which directory is going to be synced with the bucket
-  ./build/ \
+  ./react-demo/build/ \
   # Which bucket the directory will be synced with
   s3://$S3_BUCKET
 
