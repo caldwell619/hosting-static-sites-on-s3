@@ -35,4 +35,8 @@ We are syncing the contents of the build folder with the S3 bucket root.
 
 This will take every file inside of your provided directory and put it at the root of the bucket. This is the equivalent of `cp -r BUILD_PATH S3_BUCKET`
 
+## Summary
 
+You will see the progress of each file being uploaded, and be notified of any errors
+
+If you don't see any errors, you're ready to roll! Go to the URL you saved from the last set of instructions and see your stuff! 
