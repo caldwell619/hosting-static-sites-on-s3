@@ -14,7 +14,9 @@ Next
 
 Next again, nothing here is important at this time.
 
-Next again, we will manage these permissions later
+Uncheck "Block all public access"
+
+<img src="./screens/s3-block-public.png">
 
 "Create bucket"
 
