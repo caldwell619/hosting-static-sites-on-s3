@@ -24,7 +24,7 @@ Ideally it would look like this:
 
 Using the AWS CLI, we are going to upload the contents of the build folder to the bucket. The command is:
 
-```sh
+```shell
 # All caps represent values that will replace them
 aws s3 sync \
   PATH_TO_BUILD_FOLDER \

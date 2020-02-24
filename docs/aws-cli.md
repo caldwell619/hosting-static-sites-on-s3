@@ -10,7 +10,7 @@ Once that is installed, we can move on.
 
 Run 
 
-```sh
+```shell
 #!/bin/sh
 
 brew install awscli
@@ -18,7 +18,7 @@ brew install awscli
 
 Confirm by running 
 
-```sh
+```shell
 #!/bin/sh
 
 aws --version
@@ -30,21 +30,24 @@ Every AWS command needs a set of permissions to be ran. When we set up the IAM u
 
 Each user is given console access, programmatic access, or both. Here we will need the programmatic access.
 
+If you saved the `.csv` file from setting up the User, you can skip this part. However if you ever need to re-issue keys, this might help.
+
+
+<video controls src="../videos/iam-keys.mov" width="70%"></video>
+
+## Creating Access Keys
+
 On the [IAM console](https://console.aws.amazon.com/iam/home?region=us-east-1#/home), drop down "Access Management" --> "Users"
 
 Click on the user you created, and find the tab "Security Credentials"
 
-<img src="../screens/iam-sec.png"/>
-
-## Creating Access Keys
-
-Don't get excited hacker extraordinaire, the access key ID is useless without the secret.
+Don't get excited hacker extraordinaire, the User in the video was terminated.
 
 Click on "Create access key" and save the `.csv` to your somewhere safe location. These contain the **Access Key ID** and the **Secret Access Key**
 
 **DO NOOOOOOOOOOTTTTTTTTTT COMMIT THESE KEYS** please. AWS will call you, email you, and block the keys from being used because they can cause you to have to pay a lot of money if someone starts some crazy stuff on your behalf with your keys.
 
-You will never, ever need to use these keys from source control. ***NEEEEEEEVVVVVVEVEEEERRRRRRR**.
+You will never, ever need to use these keys from source control. **NEEEEEEEVVVVVVEVEEEERRRRRRR**.
 
 Once you have them on the `.csv`, get ready to use them.
 
@@ -56,7 +59,7 @@ If you're ever curious what's on there, it's your keys, in plain text. These key
 
 Okay, so the command to setup your profile is 
 
-```sh
+```shell
 #!/bin/sh
 
 aws configure # will be applied to profile "default"
@@ -79,3 +82,5 @@ Leave the region and output format as the screen shot has it.
 You're ready to do something! Yay! You can now use the AWS CLI to do all kinds of things almost nobody in your family will find interesting or understand..
 
 Too soon?
+
+Who cares. Onto [setting up S3](./setting-up-s3.md)

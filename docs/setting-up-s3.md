@@ -92,4 +92,4 @@ TL;DR it tells AWS what we allow on the bucket. We are allowing this bucket to r
 
 ## Summary
 
-After that, you're ready to push some code and see the results.
+After that, you're ready to [push some code](./uploading-to-s3.md) and see the results.
