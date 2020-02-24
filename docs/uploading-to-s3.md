@@ -18,7 +18,7 @@ Otherwise, you will upload everything to the bucket, like the `.gitignore`, any 
 
 Ideally it would look like this:
 
-<img src="../screens/static-file-structure.png">
+<img src="./screens/static-file-structure.png">
 
 ## Uploading to S3
 

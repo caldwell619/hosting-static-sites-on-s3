@@ -30,7 +30,7 @@ Click "Use this bucket to host a website"
 
 ### Index Document
 
-<img src="../screens/index-document.png"/>
+<img src="./screens/index-document.png"/>
 
 The index document is what is shown when you access the root path. 
 

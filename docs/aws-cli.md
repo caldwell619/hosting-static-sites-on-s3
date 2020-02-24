@@ -71,7 +71,7 @@ aws configure --profile production
 
 Running that command will give you a set of inputs like this, only yours will be blank, requiring you to paste the appropriate values:
 
-<img src="../screens/aws-configure.png">
+<img src="./screens/aws-configure.png">
 
 
 Leave the region and output format as the screen shot has it.
