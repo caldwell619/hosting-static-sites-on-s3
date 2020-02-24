@@ -14,7 +14,11 @@ Usually, this is `npm run build`. Each tool has it's own output directory, but i
 
 If you're using normal html, css, and js without any bundling tools, it's totally fine. However, I would recommend putting all of your files that are relevant to the code, inside of a directory named `src/`. Then your `build/` will be `src/`.
 
-Otherwise, you will upload everything to the bucket, like the `.gitignore`, any docs, etc. 
+Otherwise, you will upload everything to the bucket, like the `.gitignore`, any docs, etc.
+
+Ideally it would look like this:
+
+<img src="../screens/static-file-structure.png">
 
 ## Uploading to S3
 
@@ -29,6 +33,6 @@ aws s3 sync \
 
 We are syncing the contents of the build folder with the S3 bucket root.
 
-This will take every file inside of `build/` and put it at the root of the bucket. This is the equivalent of `cp -r BUILD_PATH S3_BUCKET`
+This will take every file inside of your provided directory and put it at the root of the bucket. This is the equivalent of `cp -r BUILD_PATH S3_BUCKET`
 
 
