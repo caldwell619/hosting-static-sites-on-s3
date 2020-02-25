@@ -2,7 +2,7 @@
 
 At the end of this, you will be able to host your static (html, css, js) websites on AWS S3, allowing others to see your work
 
-[Here are the slides](https://docs.google.com/presentation/d/1NQ45ex4ZJLJVNc4f_Uf1n93-j-jiRyyGd-57YMIwwVE/edit?usp=sharing) that accompany this repository.
+<a href="https://docs.google.com/presentation/d/1NQ45ex4ZJLJVNc4f_Uf1n93-j-jiRyyGd-57YMIwwVE/edit?usp=sharing" target="_blank" rel="noopener">Here are the slides</a> that accompany this repository.
 
 ## Who is this for?
 
