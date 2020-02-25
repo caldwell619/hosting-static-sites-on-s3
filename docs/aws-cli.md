@@ -30,7 +30,7 @@ Every AWS command needs a set of permissions to be ran. When we set up the IAM u
 
 Each user is given console access, programmatic access, or both. Here we will need the programmatic access.
 
-If you saved the `.csv` file from setting up the User, you can skip this part. However if you ever need to re-issue keys, this might help.
+**NOTE:** If you saved the `.csv` file from setting up the User, you can skip this part. However if you ever need to re-issue keys, this might help.
 
 
 <img src="./videos/keys-iam.gif"></img>
