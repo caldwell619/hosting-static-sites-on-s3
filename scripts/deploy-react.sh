@@ -15,10 +15,10 @@ then
 fi # "fi" closes the if condition above
 
 # using the aws cli, go into the s3 utility, call the command "sync"
-aws s3 sync \
   # Which directory is going to be synced with the bucket
-  ./react-demo/build/ \
   # Which bucket the directory will be synced with
+aws s3 sync \
+  ./react-demo/build/ \
   s3://$S3_BUCKET
 
 # The above is the same as this:
