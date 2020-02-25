@@ -33,7 +33,7 @@ Each user is given console access, programmatic access, or both. Here we will ne
 If you saved the `.csv` file from setting up the User, you can skip this part. However if you ever need to re-issue keys, this might help.
 
 
-<video controls src="../videos/iam-keys.mov" width="70%"></video>
+<img src="../videos/keys-iam.gif"></img>
 
 ## Creating Access Keys
 
