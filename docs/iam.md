@@ -100,7 +100,7 @@ Okay, so here's what we do.
 
 Create a group, named "admin", and attach the pre made policy for admin access. It allows all actions on all resources.
 
-<img src="../videos/group-iam.gif" width="70%"></img>
+<img src="./videos/group-iam.gif" width="70%"></img>
 
 ### Create Admin User
 
@@ -116,7 +116,7 @@ Some things to note:
 4. Download the `.csv` that comes when you create the user. You **CANNOT** access this again without starting over. 
 5. Copy the password, as you'll need it to sign in ( if you did auto-generated )
 
-<img src="../videos/user-iam.gif" width="70%"></img>
+<img src="./videos/user-iam.gif" width="70%"></img>
 
 ## Summary
 
