@@ -14,6 +14,8 @@ Next
 
 Next again, nothing here is important at this time.
 
+You'll see that public access is blocked, which is a problem if we want to host right from the bucket.
+
 Uncheck "Block all public access"
 
 <img src="./screens/s3-block-public.png">
@@ -61,8 +63,6 @@ Click "save" and move on with your life.
 For now, we're going to host right from the bucket. Later, we wil set up a better way, but for now, bucket it is.
 
 Click on the "Permissions" tab.
-
-You'll see that public access is blocked, which is a problem if we want to host right from the bucket.
 
 Click on "Bucket Policy" and paste the following into the editor.
 
