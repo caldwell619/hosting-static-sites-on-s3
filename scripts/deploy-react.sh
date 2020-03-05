@@ -1,9 +1,19 @@
 #!/bin/sh
+node_modules_path="react-demo/node_modules"
 
 # Bring the variables from the `.env` file into this script's environment
 source .env
 
-# in bash, environment variables are refferred to with a "$" before them
+# in bash, variables are refferred to with a "$" before them
+# Checking if node_modules for React have been installed
+if [ -d $node_modules_path ] 
+then
+  echo "yes"
+else
+  npm i --prefix react-demo/
+  echo "no"
+fi
+
 
 npm run build --prefix react-demo/
 
